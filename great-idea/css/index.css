@@ -94,6 +94,18 @@ nav .logo {
 	margin-right: 1%;
 }
 
+@media (max-width: 500px){
+	nav .logo {
+		display: none;
+	}
+	.links {
+		justify-content: flex-start;
+	}
+	nav a {
+		font-size: smaller;
+	}
+}
+
 nav a {
 	text-decoration: none;
 	color: whitesmoke;
@@ -214,6 +226,16 @@ section.cards button {
 	background: white;
 }
 
+@media (max-width: 500px){
+	section.cards {
+		flex-direction: column;
+	}
+
+	section.cards div{
+		width: 100%;
+	}
+}
+
 section.cards button:hover {
 	color: white;
 	background: #a19f9e;
@@ -257,4 +279,13 @@ hr.bottom-hr {
 
 .bottom-services img {
 	width: 100%;
+}
+
+@media (max-width: 500px){
+	.bottom-services {
+		flex-direction: column-reverse;
+	}
+	.bottom-services div {
+		width: 100%;
+	}
 }
