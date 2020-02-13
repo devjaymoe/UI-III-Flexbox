@@ -99,10 +99,11 @@ nav .logo {
 		display: none;
 	}
 	.links {
-		justify-content: flex-start;
+		width: 100%;
 	}
 	nav a {
 		font-size: smaller;
+
 	}
 }
 
